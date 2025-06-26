@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/catalog.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<header class="header">
+    <div class="header-elements">
+        <a href="index.html"><img class="header-logo" src="images/logo-header.svg"></a>
+        <div class="header-text">
+            <a href="about.html" class="header-link">о проекте</a>
+            <a href="catalog.html" class="header-link">каталог статей</a>
+            <a href="catalog.html" class="header-link">сервисы</a>
+            <a href="catalog.html" class="header-link">тесты</a>
+        </div>
+        <img id="burger" class="header-burger" src="images/burger.svg">
+    </div>
+    <div id="burgerMenu" class="header-menu">
+        <a href="index.html#news" class="header-menu_link">новости</a>
+        <a href="article_catalog.html" class="header-menu_link">статьи</a>
+        <a href="test1.html" class="header-menu_link">тесты</a>
+        <a href="about.html" class="header-menu_link">о проекте</a>
+    </div>
+</header>
+<main class="main">
+    <section class="banner">
+        <h1 class="banner_title">Читай то,</br> что тебе</br> <span style="color:#3858FF;font-family: 'TT Firs Neue';"> по душе</span></h1>
+    </section>
+
+
+    <section class="articles">
+        <div class="article-filter_block">
+            <img class="articles-filter_icon" src="images/icon-filter.svg">
+            <p class="articles-filter_text">Фильтр по категориям</p>
+        </div>
+        <div class="articles-filter">
+            <div class="articles-filter_tags">
+                <button data-category="all" class="filter_tag active">Все</button>
+                <button data-category="psychology" class="filter_tag">Психология</button>
+                <button data-category="design" class="filter_tag">Дизайн</button>
+                <button data-category="marketing" class="filter_tag">Маркетинг</button>
+                <button data-category="interior" class="filter_tag">Интерьер</button>
+                <button data-category="beauty" class="filter_tag">Красота</button>
+            </div>
+        </div>
+        <div class="articles-cards">
+            <a data-category="design" class="article-href">
+                <div class="article article-1">
+                    <button class="article-card_button"><img src="images/button-arrow.svg"></button>
+                    <div class="article-card_content">
+                        <p class="article-card_text">Как поднять чек </br> при помощи цвета?</p>
+                        <div class="article-card_tag">Дизайн</div>
+                    </div>
+                </div>
+            </a>
+            <a data-category="psychology" class="article-href">
+                <div class="article article-2">
+                    <button class="article-card_button"><img src="images/button-arrow.svg"></button>
+                    <div class="article-card_content">
+                        <p class="article-card_text">Как улучшить </br> настроение </br> при помощи цвета?</p>
+                        <div class="article-card_tag">Психология</div>
+                    </div>
+                </div>
+            </a>
+            <a href="article.html" data-category="marketing" class="article-href">
+                <div class="article article-3">
+                    <button class="article-card_button"><img src="images/button-arrow.svg"></button>
+                    <div class="article-card_content">
+                        <p class="article-card_text">Как влияет</br> цвет на выбор </br>потребителя?</p>
+                        <div class="article-card_tag">Маркетинг</div>
+                    </div>
+                </div>
+            </a>
+            <a data-category="marketing" class="article-href">
+                <div class="article article-4">
+                    <button class="article-card_button"><img src="images/button-arrow.svg"></button>
+                    <div class="article-card_content">
+                        <p class="article-card_text">Привлечь клиентов? </br>Легко</p>
+                        <div class="article-card_tag">Маркетинг</div>
+                    </div>
+                </div>
+            </a>
+            <a data-category="design" class="article-href">
+                <div class="article article-5">
+                    <button class="article-card_button"><img src="images/button-arrow.svg"></button>
+                    <div class="article-card_content">
+                        <p class="article-card_text">Цветовая гармония </br> в дизайне</p>
+                        <div class="article-card_tag">Дизайн</div>
+                    </div>
+                </div>
+            </a>
+            <a data-category="beauty" class="article-href">
+                <div class="article article-6">
+                    <button class="article-card_button"><img src="images/button-arrow.svg"></button>
+                    <div class="article-card_content">
+                        <p class="article-card_text">Почему красный </br>цвет — не лучший</br> вариант?</p>
+                        <div class="article-card_tag">Красота</div>
+                    </div>
+                </div>
+            </a>
+            <a data-category="interior" class="article-href">
+                <div class="article article-7">
+                    <button class="article-card_button"><img src="images/button-arrow.svg"></button>
+                    <div class="article-card_content">
+                        <p class="article-card_text">Цвет и настроение </br>в интерьерах</p>
+                        <div class="article-card_tag">Интерьер</div>
+                    </div>
+                </div>
+            </a>
+            <a data-category="beauty" class="article-href">
+                <div class="article article-8">
+                    <button class="article-card_button"><img src="images/button-arrow.svg"></button>
+                    <div class="article-card_content">
+                        <p class="article-card_text">Психология цветов</br> в макияже</p>
+                        <div class="article-card_tag">Красота</div>
+                    </div>
+                </div>
+            </a>
+            <a data-category="marketing" class="article-href">
+                <div class="article article-9">
+                    <button class="article-card_button"><img src="images/button-arrow.svg"></button>
+                    <div class="article-card_content">
+                        <p class="article-card_text">Сезонные цветовые</br> стратегии</p>
+                        <div class="article-card_tag">Маркетинг</div>
+                    </div>
+                </div>
+            </a>
+            <a data-category="interior" class="article-href">
+                <div class="article article-10">
+                    <button class="article-card_button"><img src="images/button-arrow.svg"></button>
+                    <div class="article-card_content">
+                        <p class="article-card_text">Цвет в небольших</br> помещениях</p>
+                        <div class="article-card_tag">Интерьер</div>
+                    </div>
+                </div>
+            </a>
+            <a data-category="design" class="article-href">
+                <div class="article article-11">
+                    <button class="article-card_button"><img src="images/button-arrow.svg"></button>
+                    <div class="article-card_content">
+                        <p class="article-card_text">Психология цвета</br> в дизайне</br> логотипов</p>
+                        <div class="article-card_tag">Дизайн</div>
+                    </div>
+                </div>
+            </a>
+            <a data-category="marketing" class="article-href">
+                <div class="article article-12">
+                    <button class="article-card_button"><img src="images/button-arrow.svg"></button>
+                    <div class="article-card_content">
+                        <p class="article-card_text">Гайд по тому,</br> как использовать</br> цвет по максимуму</p>
+                        <div class="article-card_tag">Маркетинг</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!--        <div class="articles-more_button">-->
+        <!--            <button class="articles-more">Смотреть ещё</button>-->
+        <!--        </div>-->
+    </section>
+    <img class="stars" src="images/catalog/stars.svg">
+    <img class="pink-bro" src="images/catalog/pink-bro.svg">
+    <img class="stars-mobile" src="images/catalog/stars-mobile.svg">
+    <img class="pink-bro-mobile" src="images/catalog/pink-bro-mobile.svg">
+</main>
+<footer class="footer">
+    <a href="index.html"><img class="footer-logo" src="images/logo-header.svg"></a>
+    <div class="footer-content">
+        <a href="about.html">о проекте </a>
+        <a href="article_catalog.html">статьи</a>
+    </div>
+    <div class="footer-content">
+        <p>сервисы</p>
+        <a href="test1.html">тесты</a>
+    </div>
+    <div class="footer-content">
+        <p>правовая информация</p>
+        <a href="styleguide.html">стайлгайд</a>
+    </div>
+    <div class="footer-socials">
+        <a href="https://web.telegram.org/k/#@colormind_media"><img class="footer-socials_telegram" src="images/telegram.svg"></a>
+        <a href="https://vk.com/colormind_media?from=search"><img class="footer-socials_vk" src="images/vk.svg"></a>
+    </div>
+    <div class="footer-mobile">
+        <div class="footer-mobile_left">
+            <p>© 2024</p>
+        </div>
+        <div class="footer-mobile_right">
+            <p>стайлгайд</p>
+            <p>правовая информация</p>
+        </div>
+    </div>
+</footer>
+<script src="./scripts/burger.js"></script>
+<script src="./scripts/filter.js"></script>
+</body>
+</html>

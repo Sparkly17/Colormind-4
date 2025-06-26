@@ -1,0 +1,368 @@
+.start-title{
+    font-size: 150px;
+    line-height: 120px;
+    font-family: 'TT Firs Neue';
+    font-weight: 700;
+}
+
+.start{
+    margin-top:100px;
+    margin-bottom: 330px;
+}
+
+.start-blue{
+     color: #3858FF;
+     font-family: 'TT Firs Neue';
+}
+
+.start-pink{
+    color: #FF7CEC;
+    font-family: 'TT Firs Neue';
+}
+
+.we{
+    display: flex;
+    width: 100%;
+    align-items: end;
+    flex-direction: column;
+    margin-bottom: 350px;
+}
+
+
+.we-title{
+    font-size: 100px;
+    line-height: 80px;
+    margin-bottom: 50px;
+    font-family: 'TT Firs Neue';
+}
+
+.we-description{
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 65px;
+}
+
+.button{
+    padding: 10px 30px;
+    font-size: 20px;
+    line-height: 36px;
+    border: 1px solid #222222;
+    border-radius: 10px;
+}
+
+.about{
+    margin-bottom: 260px;
+}
+
+.about-title{
+    font-size: 100px;
+    line-height: 80px;
+    margin-bottom: 50px;
+    font-family: 'TT Firs Neue';
+}
+
+.about-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-row.top{
+    margin-right: 360px;
+    margin-bottom: 40px;
+}
+
+.about-row.bottom{
+    margin-left: 320px;
+}
+
+.about-item_title{
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 20px;
+
+}
+
+.about-item_description{
+    font-size: 20px;
+    line-height: 25px;
+    width: 330px;
+}
+.mission{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 600px;
+}
+.mission-header{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.mission-goals{
+    margin: 0 150px;
+    width: 100%;
+}
+.mission-goal{
+    width: fit-content;
+}
+.mission-goal.top{
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.mission-goal.bottom{
+    margin-left: auto;
+}
+
+.mission-header_title{
+    font-size: 100px;
+    line-height: 80px;
+    font-family: 'TT Firs Neue';;
+}
+
+.mission-item_description{
+    font-size: 30px;
+    line-height: 40px;
+}
+.with_us{
+    margin-bottom: 150px;
+}
+.with_us-title{
+    font-size: 150px;
+    line-height: 120px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'TT Firs Neue';;
+}
+
+.with_us-footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.orange-bro{
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+
+.yellow-bro{
+    position: absolute;
+    top: 505px;
+    right: 25px;
+}
+
+.blue-bro{
+    position: absolute;
+    top: 994px;
+    left: 0;
+}
+
+.pink-bro{
+    position: absolute;
+    top: 2717px;
+    left: 0;
+}
+
+.line1{
+    position: absolute;
+    top: 195px;
+    left: 0;
+    z-index: -1;
+}
+
+.line2{
+    position: absolute;
+    top: 1797px;
+    left: 0;
+    z-index: -1;
+}
+
+.line3{
+    position: absolute;
+    top: 2822px;
+    left: 0;
+    z-index: -1;
+}
+
+.we-content{
+    width: 800px;
+}
+
+.pink-bro-mobile{
+    display: none;
+}
+
+.yellow-bro-mobile{
+    display: none;
+}
+
+@media (max-width: 1200px){
+    .we-content{
+        width: auto;
+    }
+    .orange-bro{
+        display: none;
+    }
+
+    .yellow-bro{
+        display: none;
+    }
+
+    .blue-bro{
+        display: none;
+    }
+
+    .pink-bro{
+        display: none;
+    }
+
+    .line1{
+        display: none;
+    }
+
+    .line2{
+        display: none;
+    }
+
+    .line3{
+        display: none;
+    }
+
+    .start-title{
+        font-size: 50px;
+        line-height: 40px;
+    }
+
+    .start{
+        margin-bottom: 150px;
+        margin-top: 71px;
+    }
+
+    .we{
+        align-items: start;
+        margin-bottom: 120px;
+    }
+
+    .we-title{
+        font-size: 50px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+
+    .we-description{
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 30px;
+    }
+
+    .button{
+        padding: 10px 20px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .about-title{
+        font-size: 50px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+
+    .about-row{
+        margin: 0 !important;
+        display: block;
+    }
+
+    .about-item{
+        margin-bottom: 20px;
+    }
+
+    .about-item_title{
+        font-size: 20px;
+        line-height: 19px;
+        margin-bottom: 10px;
+    }
+
+    .about-item_description{
+        font-size: 16px;
+        line-height: 19px;
+        max-width: 320px;
+    }
+
+    .mission-header_title{
+        font-size: 50px;
+        line-height: 40px;
+        order: -1;
+        width: 180px;
+    }
+
+    .mission-header_icon{
+        width: 66px;
+    }
+
+    .mission-header{
+        margin-bottom: 30px;
+        gap: 5px;
+    }
+
+    .mission{
+        align-items: start;
+    }
+
+    .mission-goals{
+        margin: 0;
+    }
+
+    .mission-goal{
+        margin: 0 !important;
+    }
+
+    .mission-goal.top{
+        margin-bottom: 20px !important;
+    }
+
+    .mission-item_description{
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .with_us-title{
+        font-size: 50px;
+        line-height: 40px;
+        text-align: start;
+    }
+
+    .with_us-footer{
+        align-items: start;
+        justify-content: start;
+    }
+
+    .about{
+        margin-bottom: 120px;
+    }
+
+    .mission{
+        margin-bottom: 120px;
+    }
+
+    .with_us{
+        margin-bottom: 120px;
+    }
+
+    .pink-bro-mobile{
+        position: absolute;
+        top: 1209px;
+        right: 0;
+        display: block;
+    }
+
+    .yellow-bro-mobile{
+        position: absolute;
+        top: 247px;
+        right: 0;
+        display: block;
+    }
+}

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<header class="m40 header">
+    <div class="header-elements">
+        <a href="index.html"><img class="header-logo" src="images/logo-header.svg"></a>
+        <div class="header-text">
+            <a href="index.html#news" class="header-link active">новости</a>
+            <a href="article_catalog.html" class="header-link">статьи</a>
+            <a href="test1.html" class="header-link">тесты</a>
+            <a href="about.html" class="header-link">о проекте</a>
+            <img class="header-logo__profile" src="images/profile.svg"/>
+        </div>
+        <img id="burger" class="header-burger" src="images/burger.svg">
+    </div>
+    <div id="burgerMenu" class="header-menu">
+        <a href="index.html#news" class="header-menu_link">новости</a>
+        <a href="article_catalog.html" class="header-menu_link">статьи</a>
+        <a href="test1.html" class="header-menu_link">тесты</a>
+        <a href="about.html" class="header-menu_link">о проекте</a>
+    </div>
+</header>
+<main class="main">
+    <section class="top">
+        <h1 class="p40 h1"> <span class="top-title_yellow">colormind</span> поможет Выразить Себя <br/> с помощью <span class="top-title_pink">цвета</span></h1>
+        <div class="top-banner">
+            <img alt="1" class="top-banner_img" src="images/index/1.png"/>
+            <div class="top-banner_info">
+                <div class="top-banner_top">
+                    Мы стремимся сделать психологию цвета доступной и понятной для всех. Colormind
+                </div>
+                <div class="top-banner_footer">
+                    <div class="top-tg">
+                        <span class="top-tg_count">1 700</span>
+                        <span class="top-tg_chn">в закрытом тг канале</span>
+                    </div>
+                    <div class="top-tg_join">
+                        <img alt="avatars" class="top-tg_avatars" src="images/index/avatars.png"/>
+                        <a href="https://web.telegram.org/k/#@colormind_media">
+                            <button class="button-white">
+                                присоединиться
+                                <img alt="btn_plus" class="top-tg_btn-icon" src="images/index/btn_plus.svg"/>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="news" class="p40 list_index">
+        <h2 class="list_index_title">будь в тренде</h2>
+        <div class="list">
+            <div class="list_row">
+                <div class="list_article">
+                    <img class="list_article-img" src="images/index/2.png"/>
+                    <span class="list_tag">#фэшн</span>
+                    <a href="article1.html"><h4 class="list_article-title">разбираем цвета главных нарядов звёзд на Оскаре</h4></a>
+                    <div class="list_article-footer">
+                        <div class="like">
+                            <img class="like_icon" src="images/like.svg"/>
+                            15
+                        </div>
+                        <div class="list_article-date">
+                            10 марта 2025
+                        </div>
+                    </div>
+                </div>
+                <div class="list_card">
+                    <span class="list_tag">#бьюти</span>
+                    <h4 class="list_article-title">вдохновляемся макияжем актрис из популярных фильмов</h4>
+                    <div class="list_article-footer">
+                        <div class="like">
+                            <img class="like_icon" src="images/like.svg"/>
+                            15
+                        </div>
+                        <div class="list_article-date">
+                            10 марта 2025
+                        </div>
+                    </div>
+                </div>
+                <div class="list_article">
+                    <img class="list_article-img" src="images/index/3.png"/>
+                    <span class="list_tag">#тренды</span>
+                    <h4 class="list_article-title">главные цветовые акценты на весну 2025</h4>
+                    <div class="list_article-footer">
+                        <div class="like">
+                            <img class="like_icon" src="images/like.svg"/>
+                            9
+                        </div>
+                        <div class="list_article-date">
+                            9 марта 2025
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list_row long">
+                <div class="list_article">
+                    <img class="list_article-img" src="images/index/4.png"/>
+                    <span class="list_tag">#бьюти</span>
+                    <h4 class="list_article-title">6 главных цветовых сочетаний в макияже</h4>
+                    <div class="list_article-footer">
+                        <div class="like">
+                            <img class="like_icon" src="images/like.svg"/>
+                            8
+                        </div>
+                        <div class="list_article-date">
+                            8 марта 2025
+                        </div>
+                    </div>
+                </div>
+                <div class="list_article">
+                    <img class="list_article-img" src="images/index/5.png"/>
+                    <span class="list_tag">#новости</span>
+                    <h4 class="list_article-title">Аромат и цвет: как нейромаркетинг использует связь между обонянием и цветовым восприятием</h4>
+                    <div class="list_article-footer">
+                        <div class="like">
+                            <img class="like_icon" src="images/like.svg"/>
+                            8
+                        </div>
+                        <div class="list_article-date">
+                            8 марта 2025
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="button_pink"><a href="article_catalog.html">в каталог статей</a></button>
+    </section>
+    <section class="more">
+        <h2  class="h2 more_title">выбирай, что по душе</h2>
+        <div class="more_list">
+            <div class="more_items">
+                <div class="more_items-list">
+                    <article class="more_item more-1">
+                        <div class="more_item-content">
+                            <div class="more_item-tags">
+                                <div class="more_item-tag">
+                                    эмоции
+                                </div>
+                                <div class="more_item-tag">
+                                    восприятие
+                                </div>
+                            </div>
+                            <h3 class="more_item-title">
+                                <a href="psychology_catalog.html">
+                                    психология
+                                </a>
+
+                            </h3>
+                            <p class="more_item-text">
+                                Раскройте тайны влияния цвета на ваше подсознание, эмоции и поведение
+                            </p>
+                        </div>
+                        <img class="more_item-img" src="images/marketing_catalog/8.png"/>
+                    </article>
+
+                    <article class="more_item more-2">
+                        <div class="more_item-content">
+                            <div class="more_item-tags">
+                                <div class="more_item-tag">
+                                    брендинг
+                                </div>
+                                <div class="more_item-tag">
+                                    коммуникация
+                                </div>
+                            </div>
+                            <h3 class="more_item-title">
+                                <a href="design_catalog.html">
+                                    дизайн
+                                </a>
+
+                            </h3>
+                            <p class="more_item-text">
+                                Используйте силу цвета для создания гармоничных и эффективных дизайнерских решений                        </p>
+                        </div>
+                        <img class="more_item-img" src="images/marketing_catalog/9.png"/>
+                    </article>
+
+                    <article class="more_item more-3">
+                        <div class="more_item-content">
+                            <div class="more_item-tags">
+                                <div class="more_item-tag">
+                                    уют
+                                </div>
+                                <div class="more_item-tag">
+                                    гармония
+                                </div>
+                            </div>
+                            <h3 class="more_item-title">
+                                <a href="interior_catalog.html">
+                                    интерьер
+                                </a>
+
+                            </h3>
+                            <p class="more_item-text">
+                                Узнайте, как правильно подобрать цветовую палитру для каждой комнаты, чтобы создать желаемую атмосферу и настроение.                        </p>
+                        </div>
+                        <img class="more_item-img" src="images/marketing_catalog/10.png"/>
+                    </article>
+
+                    <article class="more_item more-4">
+                        <div class="more_item-content">
+                            <div class="more_item-tags">
+                                <div class="more_item-tag">
+                                    макияж
+                                </div>
+                                <div class="more_item-tag">
+                                    стиль
+                                </div>
+                            </div>
+
+                            <h3 class="more_item-title">
+                                <a href="beauty_catalog.html">
+                                красота
+                                </a>
+                            </h3>
+                            <p class="more_item-text">
+                                Подчеркните свою индивидуальность и узнайте, как подобрать макияж и одежду в соответствии с вашим цветотипом и настроением.                        </p>
+                        </div>
+                        <img class="more_item-img" src="images/marketing_catalog/11.png"/>
+                    </article>
+
+                    <article class="more_item more-5">
+                        <div class="more_item-content">
+                            <div class="more_item-tags">
+                                <div class="more_item-tag">
+                                    бизнес
+                                </div>
+                                <div class="more_item-tag">
+                                    продажи
+                                </div>
+                            </div>
+                            <h3 class="more_item-title">
+                                <a href="marketing_catalog.html">
+                                    маркетинг
+                                </a>
+
+                            </h3>
+                            <p class="more_item-text">
+                                Узнайте, как использовать
+                                психологию цвета для создания эффективных рекламных кампаний</p>
+                        </div>
+                        <img class="more_item-img" src="images/marketing_catalog/12.png"/>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="index_banner">
+        <div class="index_banner-content">
+            <h2 class="index_banner-text"><span class="index_banner-text-yellow">colormind</span> — твой проводник в мир <span class="index_banner-text-pink">цвета</span></h2>
+            <button class="button-white"><a href="article_catalog.html">в каталог статей</a></button>
+        </div>
+        <img class="index_banner-img" alt="index_banner" src="images/index/index_banner.png"/>
+    </section>
+    <section class="tests">
+        <h2 class="h2">тесты: Узнай больше о себе</h2>
+        <div class="p40 tests_list">
+            <div class="tests_test">
+                <img  class="tests_test-img" src="images/tests/1.png"/>
+                <span class="list_tag">#забавное</span>
+                <p class="tests_test-text"><a href="test1.html">какой ты цвет?</a></p>
+            </div>
+            <div class="tests_test">
+                <img  class="tests_test-img" src="images/tests/2.png"/>
+                <span class="list_tag">#забавное</span>
+                <p class="tests_test-text">цветовая викторина</p>
+            </div>
+            <div class="tests_test">
+                <img  class="tests_test-img" src="images/tests/3.png"/>
+                <span class="list_tag">#полезное</span>
+                <p class="tests_test-text">цвет твоего внутреннего мира</p>
+            </div>
+            <div class="tests_test">
+                <img  class="tests_test-img" src="images/tests/4.png"/>
+                <span class="list_tag">#забавное</span>
+                <p class="tests_test-text">символика цвета</p>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <h2 class="h2">о проекте</h2>
+        <p class="p40 about_text">colormind — медиа-сервис о психологии цвета, который поможет проинформировать людей о том, как цвет влияет на восприятие человека.</p>
+        <div class="p40 about-row row-top">
+            <div class="about-item">
+                <h3 class="about-item_title">образование</h3>
+                <div class="about-item_description">
+                    предоставление информации<br/> и практических знаний о психологии<br/> цвета для применения<br/> в повседневной жизни.
+                </div>
+            </div>
+            <div class="about-item">
+                <h3 class="about-item_title">вдохновение</h3>
+                <div class="about-item_description">сайт помогает пользователям<br/> находить вдохновение<br/> и креативность через цвет
+                </div>
+            </div>
+        </div>
+        <div class="p40 about-row bottom">
+            <div class="about-item">
+                <h3 class="about-item_title">самовыражение</h3>
+                <div class="about-item_description">возможность изучать<br/>
+                    и использовать цвета<br/>
+                    для личного самовыражения
+                </div>
+            </div>
+            <div class="about-item">
+                <h3 class="about-item_title">понимание себя</h3>
+                <div class="about-item_description">посетители сайта могут<br/>
+                    лучше понять свои эмоции<br/>и предпочтения через анализ<br/> влияния цвета
+                </div>
+            </div>
+        </div>
+        <button class="button_pink"><a href="about.html">подробнее</a></button>
+    </section>
+    <img alt="" class="img_1" src="images/index/yellow-bro.png">
+    <img alt="" class="img_2" src="images/index/pink-bro.png">
+    <img alt="" class="img_3" src="images/index/sparkly.png">
+</main>
+<footer class="footer m40">
+    <a href="index.html"><img class="footer-logo" src="images/logo-header.svg"></a>
+    <div class="footer-content">
+        <a href="about.html">о проекте </a>
+        <a href="article_catalog.html">статьи</a>
+    </div>
+    <div class="footer-content">
+        <p>сервисы</p>
+        <a href="test1.html">тесты</a>
+    </div>
+    <div class="footer-content">
+        <p>правовая информация</p>
+        <a href="styleguide.html">стайлгайд</a>
+    </div>
+    <div class="footer-socials">
+        <a href="https://web.telegram.org/k/#@colormind_media"><img class="footer-socials_telegram" src="images/telegram.svg"></a>
+        <a href="https://vk.com/colormind_media?from=search"><img class="footer-socials_vk" src="images/vk.svg"></a>
+    </div>
+    <div class="footer-mobile">
+        <div class="footer-mobile_left">
+            <p>© 2024</p>
+        </div>
+        <div class="footer-mobile_right">
+            <p>стайлгайд</p>
+            <p>правовая информация</p>
+        </div>
+    </div>
+</footer>
+<script src="./scripts/like.js"></script>
+<script src="./scripts/filter.js"></script>
+<script src="./scripts/watch-more.js"></script>
+<script src="./scripts/burger.js"></script>
+</body>
+</html>

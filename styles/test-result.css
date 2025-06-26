@@ -1,0 +1,288 @@
+.banner .banner_btn{
+    margin-top: 50px;
+}
+
+main h3{
+    font-family: "TT Firs Neue", sans-serif;text-transform: lowercase; font-weight:600;
+}
+
+.introduction{
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.nav{
+    width: 300px;
+}
+
+.nav-title{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-link{
+    color: #909090;
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    border-bottom: 1px solid #909090;
+}
+
+.nav-link:last-child{
+    border: none;
+}
+
+.symbols{
+    width: 702px;
+    margin-right: 83px;
+}
+
+.symbols .article_table{
+    row-gap: 30px;
+    margin-top: 50px;
+    grid-template-columns: 120px 513px;
+}
+
+.symbols-title{
+    margin-bottom: 30px;
+}
+
+h3{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+}
+
+.now{
+    width: 670px;
+    margin-bottom: 100px;
+}
+
+.now_title{
+    margin-bottom: 30px;
+}
+
+.now_text{
+    margin-bottom: 50px;
+}
+
+.now_points{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 110px;
+}
+
+.chars_title{
+    margin-bottom: 30px;
+}
+
+.chars_text{
+    margin-bottom: 50px;
+}
+
+.chars .article_table{
+    grid-template-columns: 102px 460px;
+}
+
+.chars{
+    margin-bottom: 100px;
+}
+
+.fact{
+    width: 609px;
+    margin-bottom: 150px;
+    margin-left: 114px;
+}
+
+.fact_title{
+    margin-bottom: 30px;
+}
+
+.conclusion{
+    width: 620px;
+    margin-bottom: 230px;
+    margin-left: 690px;
+}
+
+.conclusion_title{
+    margin-bottom: 30px;
+}
+
+.result_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.result_buttons .button_pink{
+    margin: 0;
+    height: 65px;
+    width: 256px;
+}
+
+.result_buttons .button-white{
+    margin: 0;
+    height: 65px;
+    width: 267px;
+    border: 1px solid #909090;
+}
+
+.tests_list{
+    height: fit-content;
+    padding-top: 0;
+    background-color: transparent;
+}
+
+.tests{
+    margin-bottom: 245px;
+}
+
+.tests-title{
+    margin-bottom: 40px;
+}
+
+.list_tag{
+    color: #FF7CEC;
+}
+
+.img_1{
+    width: 558px;
+    height: 894px;
+    position: absolute;
+    left: 930px;
+    top: 1800px;
+}
+
+.img_2{
+    width: 440px;
+    position: absolute;
+    left: 730px;
+    top: 2440px;
+}
+
+.img_3{
+    position: absolute;
+    width: 595px;
+    height: 480px;
+    top: 3070px;
+    left: 0px;
+}
+
+@media (max-width: 400px) {
+    h3{
+        font-size: 40px;
+        line-height: 90%;
+    }
+    .p1{
+        font-size: 16px;
+        line-height: 130%;
+    }
+    .p3, .p2{
+        font-size: 14px;
+        line-height: 120%;
+    }
+    .nav{
+        display: none;
+    }
+    .banner{
+        margin-bottom: 0;
+    }
+    .introduction{
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .symbols, .now, .now_points, .fact, .conclusion{
+        width: auto;
+        margin: 0;
+    }
+    .symbols .article_table{
+        grid-template-columns: 80px 1fr;
+        margin-top: 40px;
+    }
+    .symbols-title{
+        margin-bottom: 20px;
+    }
+    .now{
+        padding: 0 24px;
+        margin-bottom: 80px;
+    }
+    .now_text{
+        margin-bottom: 40px;
+    }
+    .now_points{
+        gap: 30px;
+    }
+    .chars{
+        margin: 0;
+        padding: 0 24px;
+    }
+    .chars_title{
+        margin-bottom: 20px;
+    }
+    .chars_text{
+        margin-bottom: 40px;
+    }
+    .chars .article_table{
+        grid-template-columns: 75px 1fr;
+        column-gap: 25px;
+    }
+    .chars_gallery{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 80px;
+    }
+    .fact{
+        padding: 0 24px;
+        margin-top: 80px;
+    }
+    .fact_text{
+        margin-bottom: 40px;
+    }
+    .conclusion{
+        padding: 0 24px;
+        margin-top: 80px;
+        margin-bottom: 60px;
+    }
+    .result_buttons{
+        flex-direction: column;
+    }
+    .result_buttons .button-white{
+        width: 228px;
+        height: 61px;
+    }
+    .result_buttons .button_pink{
+        order: -1;
+        width: 219px;
+        height: 61px;
+    }
+    .tests-title{
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    .tests{
+        margin-bottom: 150px;
+    }
+}

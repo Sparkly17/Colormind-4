@@ -1,0 +1,14 @@
+.list_tag{
+    color: #FF939C;
+}
+
+.index_banner{
+    background-color: #FF99F0;
+    border-radius: 30px;
+    height: 530px;
+}
+
+.index_banner-text{
+    font-size: 96px;
+    margin-bottom: 40px;
+}
