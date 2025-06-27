@@ -1,4 +1,4 @@
-Сслылка на фигму: https://www.figma.com/design/3F2UQ7XfwWJeR5olsjw2Zd/colormind-3-%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C?node-id=626-10577&t=OKQ4dM18kJVBg1o5-1
+Сслылка на фигму: https://clck.ru/3Monyg
 
 # Общие страницы
 
